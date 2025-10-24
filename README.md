@@ -43,13 +43,6 @@ rockcar/
    uvicorn api.main:app --reload --port 8000
    ```
 
-   o bien directamente con Python (utiliza las variables de entorno `API_HOST`,
-   `API_PORT` y `API_RELOAD` si necesitas personalizar la ejecución):
-
-   ```bash
-   python -m api.main
-   ```
-
 4. Realizar una consulta POST a `http://localhost:8000/categorias` con el
    cuerpo:
 
